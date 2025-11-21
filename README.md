@@ -11,7 +11,7 @@ An application that allows users to look up IP addresses and view their correspo
 ## Screenshots 📸
 
 ### Desktop View
-![Desktop View](./assets/images/desktopView.jpg)
+![Desktop View](./assets/images/desktopView.png)
 
 ### Mobile View
 ![Mobile View](./assets/images/mobileView.png)
