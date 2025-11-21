@@ -11,10 +11,10 @@ An application that allows users to look up IP addresses and view their correspo
 ## Screenshots 📸
 
 ### Desktop View
-![Desktop View](./assets/design/desktop-design.jpg)
+![Desktop View](./assets/images/desktop-design.jpg)
 
 ### Mobile View
-![Mobile View](./assets/design/mobileView.png)
+![Mobile View](./assets/images/mobileView.png)
 
 ## Tech stack 🛠️
 - ⚙️ Vanilla JavaScript (ES modules)
