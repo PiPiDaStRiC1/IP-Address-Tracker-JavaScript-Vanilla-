@@ -2,6 +2,8 @@
 
 An application that allows users to look up IP addresses and view their corresponding location, timezone, ISP information, and position on an interactive map.
 
+📍 **Live Demo:** https://pipidastric1.github.io/IP-Address-Tracker-JavaScript-Vanilla/
+
 ## Features 🔥
 - Lookup by IP
 - Displays IP, city/country, timezone and ISP
@@ -37,16 +39,25 @@ npx parcel index.html
 ```
 or
 ```
-npm run dev
+npm run start
 ```
 
 4. Build for production:
 ```
-npx parcel build index.html --dist-dir build
+npx parcel build index.html --public-url ./
 ```
 or
 ```
 npm run build
+```
+
+5. Deploy: 
+```
+npm run build && gh-pages -d dist
+```
+or 
+```
+npm run deploy
 ```
 
 ## License & credits 🤝

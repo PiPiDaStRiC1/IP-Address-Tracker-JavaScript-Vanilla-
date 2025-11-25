@@ -1,5 +1,6 @@
 import { elements } from "../dom";
 import {addErrorModal} from "../handlers"
+import {API_IP_KEY} from "../utils";
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 
@@ -10,7 +11,7 @@ let previousIp;
 export async function getGeo(ipAddress) {
     if (ipAddress === previousIp) return;
     try {
-        const response = await fetch(`https://geo.ipify.org/api/v2/country,city?apiKey=at_OkQ1C8UQJIZ1P6QiUPkZZUkWPUzeS&ipAddress=${ipAddress}`);
+        const response = await fetch(`https://geo.ipify.org/api/v2/country,city?apiKey=${API_IP_KEY}&ipAddress=${ipAddress}`);
         const data = await response.json();
         const {ip, location, _, isp} = data;
         elements.ipField.innerText = ip;
